@@ -16,6 +16,40 @@ The project is split into multiple stages (task1 → task6), each adding more co
 ## 📦 Project Structure
 
 ```
+task0/
+├── Dockerfile
+task1/
+├── api.py
+├── Dockerfile
+task2 & task3/
+├── back-end/
+│   ├── api.py
+│   ├── Dockerfile
+├── front-end/
+│   ├── softy-pinko-front-end/ (static site files)
+│   ├── Dockerfile
+│   ├── softy-pinko-front-end.conf
+task4/
+├── back-end/
+│   ├── api.py
+│   ├── Dockerfile
+├── front-end/
+│   ├── softy-pinko-front-end/ (static site files)
+│   ├── Dockerfile
+│   ├── softy-pinko-front-end.conf
+├── docker-compose.yml
+task5/
+├── back-end/
+│   ├── api.py
+│   ├── Dockerfile
+├── front-end/
+│   ├── softy-pinko-front-end/ (static site files)
+│   ├── Dockerfile
+│   ├── softy-pinko-front-end.conf
+├── proxy/
+│   ├── Dockerfile
+│   ├── proxy.conf
+├── docker-compose.yml
 task6/
 ├── back-end/
 │   ├── api.py
